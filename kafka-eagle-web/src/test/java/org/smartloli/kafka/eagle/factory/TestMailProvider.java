@@ -17,7 +17,7 @@
  */
 package org.smartloli.kafka.eagle.factory;
 
-import org.smartloli.kafka.eagle.api.email.MailFactory;
+import org.smartloli.kafka.eagle.api.email.impl.MailFactory;
 import org.smartloli.kafka.eagle.api.email.MailProvider;
 
 /**

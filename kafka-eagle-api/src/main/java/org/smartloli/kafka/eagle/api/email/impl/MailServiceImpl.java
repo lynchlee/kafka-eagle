@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.smartloli.kafka.eagle.api.email;
+package org.smartloli.kafka.eagle.api.email.impl;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -38,6 +38,7 @@ import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 
 import org.apache.commons.lang.StringUtils;
+import org.smartloli.kafka.eagle.api.email.MailService;
 import org.smartloli.kafka.eagle.common.protocol.MailSenderInfo;
 import org.smartloli.kafka.eagle.common.protocol.SaAuthenticatorInfo;
 import org.smartloli.kafka.eagle.common.util.SystemConfigUtils;
@@ -49,7 +50,7 @@ import org.smartloli.kafka.eagle.common.util.SystemConfigUtils;
  *
  *         Created by Jan 17, 2017
  * 
- * @see org.smartloli.kafka.eagle.factory.MailService
+ * @see org.smartloli.kafka.eagle.api.email.impl.MailServiceImpl
  */
 public class MailServiceImpl implements MailService {
 

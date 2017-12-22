@@ -32,7 +32,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
-import org.smartloli.kafka.eagle.api.email.MailFactory;
+import org.smartloli.kafka.eagle.api.email.impl.MailFactory;
 import org.smartloli.kafka.eagle.api.email.MailProvider;
 import org.smartloli.kafka.eagle.common.protocol.AlarmInfo;
 import org.smartloli.kafka.eagle.common.protocol.OffsetZkInfo;

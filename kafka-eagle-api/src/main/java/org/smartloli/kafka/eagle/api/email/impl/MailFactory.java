@@ -15,7 +15,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.smartloli.kafka.eagle.api.email;
+package org.smartloli.kafka.eagle.api.email.impl;
+
+import org.smartloli.kafka.eagle.api.email.MailProvider;
+import org.smartloli.kafka.eagle.api.email.MailService;
 
 /**
  * Mail factory implements MailProvider service.
@@ -24,7 +27,7 @@ package org.smartloli.kafka.eagle.api.email;
  *
  *         Created by Jan 17, 2017
  * 
- * @see org.smartloli.kafka.eagle.factory.MailProvider
+ * @see MailFactory
  */
 public class MailFactory implements MailProvider {
 

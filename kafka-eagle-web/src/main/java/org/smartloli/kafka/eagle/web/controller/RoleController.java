@@ -26,7 +26,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import org.apache.shiro.authz.annotation.RequiresPermissions;
-import org.smartloli.kafka.eagle.api.email.MailFactory;
+import org.smartloli.kafka.eagle.api.email.impl.MailFactory;
 import org.smartloli.kafka.eagle.api.email.MailService;
 import org.smartloli.kafka.eagle.common.util.KConstants;
 import org.smartloli.kafka.eagle.web.pojo.RoleResource;
